@@ -1,0 +1,45 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(186, 231, 216);
+  
+}
+
+img {
+  max-width: 1000px;
+}
+
+.title {
+  color: gray;
+  
+}
+
+button {
+  
+  margin: 20px auto;
+  background-color: darkgray;
+  color: black;
+  font-weight:700;
+  
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 22px;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+a:hover{
+  background-color: rgb(214, 233, 233);
+  opacity: .7;
+}
+
+a {
+  padding-top: 5px;
+  display: inline-block;
+}
