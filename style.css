@@ -1,10 +1,22 @@
+.name h1 {
+  font-family: fantasy;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  text-align: center;
+
+
+}
+
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   background-color: rgb(149, 235, 206);
-  
+  position: relative;
+  top: 20px;
 }
 
 img {
@@ -28,6 +40,10 @@ button {
 h1 {
   font-family: monospace;
   font-size: 22px;
+}
+
+q {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button:hover {
