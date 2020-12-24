@@ -29,6 +29,8 @@ img {
   
 }
 
+/* button feature for contact info */
+
 button {
   
   margin: 20px auto;
@@ -44,14 +46,26 @@ h1 {
   font-size: 25px;
 }
 
+/* quote formatting */
+
+q {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* contact information button */
+
 button:hover {
   opacity: .8;
 }
 
+/* hover feature over icons */
+
 a:hover{
-  background-color: rgb(214, 233, 233);
+  background-color: rgb(146, 230, 230);
   opacity: .7;
 }
+
+/* spacing for icons */
 
 a {
   padding-top: 5px;
