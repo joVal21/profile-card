@@ -1,9 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.web-color {
+  background-color: #FA5B00;
+  padding: 300px
+  
+  
+}
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(66, 45, 45, 0.75);
   max-width: 300px;
   margin: auto;
   text-align: center;
-  background-color: rgb(186, 231, 216);
+  background-color:#07E3D1;
   
 }
 
@@ -19,15 +32,16 @@ img {
 button {
   
   margin: 20px auto;
-  background-color: darkgray;
+  background-color:#D5FCFF;
   color: black;
   font-weight:700;
+  height: 45px;
   
 }
 
 h1 {
-  font-family: monospace;
-  font-size: 22px;
+  font-family: serif;
+  font-size: 25px;
 }
 
 button:hover {
@@ -42,4 +56,12 @@ a:hover{
 a {
   padding-top: 5px;
   display: inline-block;
+}
+
+.quote {
+  padding-top: 10px;
+  position: relative;
+  top: 5px;
+  font-family: serif;
+  font-weight: 700;
 }
